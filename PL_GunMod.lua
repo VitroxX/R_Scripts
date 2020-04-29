@@ -1,6 +1,4 @@
---
 local player = game:GetService("Players").LocalPlayer
---
 local gun = player.Backpack:FindFirstChild("Weapon1")
 local pogs = require(gun)
   pogs["MagSize"] = math.huge
